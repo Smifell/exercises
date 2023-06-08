@@ -15,7 +15,7 @@
             dZahl2 = Convert.ToDouble(Console.ReadLine());
             
 
-            while (bAbfrage = true)
+            while (bAbfrage == true)
             {
                 Console.WriteLine("\nBitte Operator auswählen:\n[1] +\n[2] -\n[3] *\n[4] /\n[5] stop!");
 
