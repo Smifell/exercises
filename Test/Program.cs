@@ -13,13 +13,13 @@
             dZahl1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Bitte Zahl 2 Eingeben:");
             dZahl2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("\nBitte Operator auswählen:\n[1] +\n[2] -\n[3] *\n[4] /\n[5] stop!");
+            
 
             while (bAbfrage = true)
             {
+                Console.WriteLine("\nBitte Operator auswählen:\n[1] +\n[2] -\n[3] *\n[4] /\n[5] stop!");
 
-
-                int iAuswahl = Convert.ToInt32(Console.ReadLine());
+                double iAuswahl = Convert.ToInt32(Console.ReadLine());
                 switch (iAuswahl)
                 {
                     case 1:
